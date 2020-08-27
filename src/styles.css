@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+#container{
+    width: 100%;
+}
+#coluna{  
+    width: 100%;
+    float: left;
+    padding-left: 10%;
+}
+#coluna2{  
+    width: 50%;
+    float: left;
+}
+#header{
+    width: 100%;
+    background-color: black;
+    height: 400px;
+    padding-top: 100px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: #ec0697;
+}
+.icones{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+#footer{
+    position:absolute;
+    width:100%;
+    background-color: black;
+    height: auto;
+    margin-top: 800px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: #ec0697;
+}
+#coluna3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+#coluna5{
+    width: 20%;
+    float: left;
+}
+#foot{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 25%;
+    width: 50%;
+}
+
+#dev{
+    border-radius: 100%;
+    border: 5px solid #ec0697;
+    width: 170px;
+    margin-top: -108px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+ @font-face {
+   font-family: aubrey;
+   src: url(./assets/fonts/AUBREY1__.TTF);
+}
+@font-face {
+    font-family: samsung;
+    src: url(./assets/fonts/samsungsharpsansmedium.otf);
+}
+@font-face {
+    font-family: chickenPieHeigth;
+    src: url(./assets/fonts/CHICKEN\ Pie\ Height.otf);
+ }
+ @font-face {
+    font-family: chicken;
+    src: url(./assets/fonts/pie/CHICKEN\ Pie.ttf);
+ }
+ @font-face {
+    font-family: alguma;
+    src: url(./assets/fonts/u-4l0qyriQwlOrhSvowK_l5-eR7lXff4jvw\ \(1\).woff2);
+ }
+ .color{
+    font-family: samsung;
+    color: #333;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.normal{
+    font-family: alguma;
+    color: #696969;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 15;
+}
+
+.ChickenPie{
+    color: #fff;
+    font-family: chickenPieHeigth;
+    font-size: 50px;
+}
+.desc{
+    color: #ec0697;
+    font-family: chicken;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.descComents{
+    color: #ec0697;
+    font-family: chicken;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;   
+}
+.Fieldset{
+    border-color: #e658;
+    width: 90%;
+}
+.star{
+    font-family: chicken;
+    color: #ec0697;
+    padding: 5px;
+    margin-bottom: 11px;
+    font-size: 25px;
+}
+.icon{
+    width: 25px;
+}
+
+@media screen and (min-width: 800px) {
+    #container{
+        width: 100%;
+    }
+    #coluna{  
+        width: 50%;
+        padding-left: 10%;
+        float: left;
+    }
+    #coluna3{
+        width: 33.33%;
+        float: left;
+    }
+    #coluna5{
+        width: 20%;
+        float: left;
+    }
+    #dev{
+        border-radius: 100%;
+        border: 5px solid #ec0697;
+        width: 200px;
+        margin-top: -148px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    #footer{
+        position:absolute;
+        width:100%;
+        background-color: black;
+        margin-top: 400px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        color: #ec0697;
+    }
+    #foot{
+        margin-top: 20px;
+        margin-bottom: 100px;
+        margin-left: 40%;
+        width: 20%;
+    }
+    .Fieldset{
+        border-color: #e658;
+        width: 40%;
+    }
+  }
